@@ -2,41 +2,41 @@ export const servicesData = [
   {
     id: "service-01",
     number: "01",
-    iconName: "Code2",
-    title: "Website Development",
-    description: "Pembuatan website sesuai kebutuhan project mahasiswa dengan struktur kode yang rapi, modular, dan siap dipresentasikan.",
-    highlights: ["Custom Web Structure", "Clean Code Architecture", "SEO & Speed Optimized"]
+    iconName: "FolderGit2",
+    title: "Dokumentasi Projek Digital",
+    description: "Mendokumentasikan alur perancangan website dari ide mentah hingga produk jadi dalam format arsip yang rapi dan mudah dipelajari kembali.",
+    highlights: ["Pencatatan alur arsitektur sistem", "Dokumentasi visual tangkapan layar antarmuka", "Ringkasan pembelajaran teknis"]
   },
   {
     id: "service-02",
     number: "02",
-    iconName: "Cpu",
-    title: "Feature Development",
-    description: "Implementasi fitur seperti CRUD, authentication, dashboard, database, API, dan fitur web interaktif lainnya.",
-    highlights: ["CRUD & Authorization", "RESTful API Integration", "Interactive Dashboards"]
+    iconName: "Code2",
+    title: "Pengembangan Website Modern",
+    description: "Membangun website portofolio, landing page, atau etalase produk dengan kode bersih, loading cepat, dan optimal di semua ukuran layar.",
+    highlights: ["Frontend responsif desktop dan mobile", "Teknologi modern tanpa beban berlebih", "Siap dipublikasikan ke Vercel atau GitHub Pages"]
   },
   {
     id: "service-03",
     number: "03",
-    iconName: "Bug",
-    title: "Bug Fixing",
-    description: "Membantu menemukan dan memperbaiki error pada project website, syntax error, broken routing, hingga masalah logika.",
-    highlights: ["Root Cause Diagnosis", "Code Refactoring", "Zero-Error Guarantee"]
+    iconName: "Layout",
+    title: "Desain Antarmuka (UI/UX)",
+    description: "Merancang identitas visual website yang memiliki karakter kuat, pemilihan warna yang selaras, dan pengalaman bernavigasi yang nyaman.",
+    highlights: ["Eksplorasi tata letak yang berkarakter", "Hierarki baca dan tipografi yang jelas", "Transisi antarmuka yang wajar dan fungsional"]
   },
   {
     id: "service-04",
     number: "04",
-    iconName: "Layout",
-    title: "UI/UX Design",
-    description: "Membuat tampilan website yang modern, responsive, intuitif, dan nyaman digunakan di desktop maupun mobile.",
-    highlights: ["Modern Aesthetic", "Responsive Grid Layout", "Figma/Sketch to Web Code"]
+    iconName: "Terminal",
+    title: "Eksplorasi & Perbaikan Kode",
+    description: "Membantu menelaah kembali struktur website, menelusuri kendala tampilan, serta merapikan struktur file agar lebih mudah dikelola.",
+    highlights: ["Pemeriksaan kesalahan sintaks", "Penataan struktur folder dan komponen", "Optimasi kecepatan muat halaman"]
   },
   {
     id: "service-05",
     number: "05",
-    iconName: "MessageSquareCode",
-    title: "Project Consultation",
-    description: "Konsultasi mengenai struktur project, rekomendasi teknologi, perancangan skema database, dan alur implementasi.",
-    highlights: ["Tech Stack Selection", "Database Schema Advice", "Step-by-Step Guidance"]
+    iconName: "Users",
+    title: "Ruang Kolaborasi Kreatif",
+    description: "Membuka wadah bertukar ide dan kolaborasi pembuatan karya digital bersama mahasiswa, komunitas, maupun pelaku usaha kreatif lokal.",
+    highlights: ["Sesi diskusi konsep dan arah visual", "Urun daya ideasi projek digital", "Kerja sama pengerjaan projek bersama"]
   }
 ];

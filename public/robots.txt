@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://distech.vercel.app/sitemap.xml
+Sitemap: https://arf-creative.vercel.app/sitemap.xml

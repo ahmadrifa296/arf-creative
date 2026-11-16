@@ -1,34 +1,22 @@
 export const faqData = [
   {
-    question: "Website apa saja yang bisa dibuat?",
-    answer: "DisTech fokus pada pembuatan berbagai jenis website seperti company profile, sistem informasi, portal web, dashboard analytics, katalog produk, landing page, hingga website tugas akhir/skripsi mahasiswa."
+    question: "Apa fokus utama dari ARF Creative?",
+    answer: "ARF Creative adalah creative space yang berfokus mendokumentasikan proses rancang bangun projek website, eksplorasi antarmuka digital, dan membuka ruang kolaborasi kreatif."
   },
   {
-    question: "Apakah bisa menggunakan Laravel?",
-    answer: "Tentu bisa. Kami menguasai stack modern untuk pengembangan web mulai dari HTML, CSS, JavaScript Native, React, hingga framework PHP seperti Laravel."
+    question: "Projek apa saja yang didokumentasikan di sini?",
+    answer: "Kami mendokumentasikan ragam projek web, seperti platform editorial (Aksara Dialogue), etalase digital brand lokal (BDG Boys Merch), hingga catatan tahapan belajar koding web dari awal."
   },
   {
-    question: "Apakah bisa memperbaiki project yang sudah ada?",
-    answer: "Sangat bisa. Kami siap melanjutkan project website yang belum selesai, memperbaiki fitur yang bermasalah, merefaktorisasi struktur kode, maupun meningkatkan tampilan website."
+    question: "Apakah saya bisa mengajak berkolaborasi untuk membuat projek web?",
+    answer: "Tentu saja. Kami sangat terbuka untuk berkolaborasi bersama mahasiswa, kreator, dan brand lokal yang ingin mewujudkan website berkarakter dan terdokumentasi dengan baik."
   },
   {
-    question: "Apakah bisa membantu memperbaiki error?",
-    answer: "Bisa. Kami menyediakan layanan Bug Fixing untuk mendiagnosis, melacak, dan memperbaiki error/bug pada project website Anda hingga berjalan lancar."
+    question: "Apakah kode sumber projek dapat dipelajari?",
+    answer: "Ya, setiap projek publik yang kami dokumentasikan dilengkapi tautan repositori GitHub dan preview interaktif agar dapat menjadi referensi belajar bersama."
   },
   {
-    question: "Apakah bisa request desain sendiri?",
-    answer: "Bisa. Anda dapat menyerahkan acuan desain (Figma, Adobe XD, sketsa, atau contoh website lain), ataupun meminta kami membuat perancangan UI/UX dari nol."
-  },
-  {
-    question: "Berapa lama proses pengerjaan?",
-    answer: "Waktu pengerjaan bervariasi mulai dari 2 hingga 7 hari kerja tergantung pada tingkat kompleksitas fitur, jumlah halaman, dan deadline project Anda."
-  },
-  {
-    question: "Apakah bisa konsultasi sebelum mulai?",
-    answer: "SANGAT BISA. Kami menyarankan untuk berkonsultasi terlebih dahulu (GRATIS) mengenai konsep project, alur fitur, dan teknologi agar solusi yang dirancang sesuai dengan ekspektasi Anda."
-  },
-  {
-    question: "Apakah DisTech menyediakan hosting?",
-    answer: "DisTech saat ini fokus pada pengembangan website dan tidak menyediakan layanan hosting."
+    question: "Bagaimana alur memulai kolaborasi dengan ARF Creative?",
+    answer: "Anda dapat langsung menyapa kami melalui direct message Instagram di @arf_.creative atau melalui tautan WhatsApp untuk mendiskusikan konsep projek Anda."
   }
 ];

@@ -1,153 +1,77 @@
-# DisTech — Digital Solution Technology
-> **Website Company Profile Profesional & Modern untuk Jasa Pengembangan Website Mahasiswa**
+# ARF Creative : Creative Space & Dokumentasi Projek Digital
 
-![DisTech Preview Banner](public/favicon.svg)
+> **Website Profil & Dokumentasi Projek Resmi ARF Creative (@arf_.creative)**
+> *"Creative space & process. Let's collaborate."*
 
----
-
-## 📌 Tentag DisTech
-
-**DisTech (Digital Solution Technology)** adalah penyedia jasa pengembangan website dan pendampingan project web terkhusus untuk mahasiswa (D3/S1 Informatika, Sistem Informasi, Manajemen Informatika, dll).
-
-Website ini dibangun sebagai **Static Website** berperforma tinggi yang siap langsung di-deploy ke **Vercel** tanpa membutuhkan server backend maupun database.
+![ARF Creative Artwork](public/logo.jpg)
 
 ---
 
-## 🚀 Fitur Utama Website
+## 📌 Tentang ARF Creative
 
-1. **Sticky Transparent Navbar**:
-   - Logo DisTech modern + tagline kecil.
-   - Smooth backdrop blur saat scroll.
-   - Mobile responsive drawer menu dengan animasi transisi.
-   - Shortcut tombol langsung ke WhatsApp Konsultasi.
+Website ini dibangun sebagai **Creative Studio & Project Documentation Portfolio** untuk **ARF Creative (`@arf_.creative`)**. Didesain secara khusus untuk mendokumentasikan karya rancang bangun website dengan pendekatan editorial yang bersih, berani, dan bebas dari pola generik template AI.
 
-2. **Hero Section**:
-   - Headline: *"BUILD YOUR PROJECT. WE MAKE IT DIGITAL."*
-   - Interactive mockup UI dashboard dengan floating code card, live status indicators, dan subtle background glow.
-
-3. **Intro Value Section**:
-   - *"Project Website Jangan Berhenti di Tengah Jalan."*
-   - 4 Card keunggulan utama (Modern Development, Project Focused, Responsive, Technical Support).
-
-4. **Services Section (Layanan DisTech)**:
-   - 5 Card Layanan:
-     - 01. Website Development
-     - 02. Feature Development (CRUD, Auth, API, Dashboard)
-     - 03. Bug Fixing & Debugging
-     - 04. UI/UX Design
-     - 05. Project Consultation
-
-5. **Portfolio Section with Category Filters**:
-   - Filter Kategori: `All`, `Laravel`, `JavaScript`, `UI/UX`, `Website`.
-   - Card project dilengkapi mockup visual web, teknologi badges, deskripsi, tombol **GitHub Repository**, dan **Live Demo**.
-   - Data array terpisah di `src/data/portfolioData.js` agar mudah diubah.
-
-6. **Why DisTech**:
-   - 4 alasan memilih DisTech tanpa klaim statistik palsu.
-
-7. **Workflow Timeline**:
-   - Timeline 5 langkah (Konsultasi → Analisis → Development → Testing → Delivery).
-
-8. **Pricing Options**:
-   - 3 Card Paket (Starter, Business, Custom) dengan placeholder harga transparan.
-
-9. **Accordion FAQ**:
-   - 8 Pertanyaan yang sering diajukan lengkap dengan jawaban.
-
-10. **CTA & Contact Channels**:
-    - Direct integration ke WhatsApp (+62), Instagram (@distech.id), GitHub, dan Email (hello@distech.id).
-    - Tombol copy-to-clipboard dengan indikator visual.
+Dibangun dengan arsitektur statis modern berbasis **React + Vite + Tailwind CSS**, siap langsung di-deploy ke **Vercel** tanpa dependensi backend atau database.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🎨 Struktur Halaman & Fitur Utama
 
-- **Vite** (Build tool super cepat)
-- **React.js** (Framework UI modern & modular)
-- **Tailwind CSS v4** (Design system dark mode premium: `#050B14`, Electric Blue `#2563EB`, Cyan `#22D3EE`)
-- **Lucide React** (Ikon vektor modern)
-- **HTML5 Semantic & SEO Meta Tags** (Favicon SVG, OpenGraph, robots.txt, sitemap.xml)
+1. **Header Studio ([Navbar.jsx](src/components/Navbar.jsx))**:
+   - Menampilkan logo resmi ARF Creative (`/logo.jpg`), tautan navigasi langsung ke dokumentasi projek, serta shortcut WhatsApp & Instagram.
+
+2. **Hero Section ([Hero.jsx](src/components/Hero.jsx))**:
+   - Tipografi editorial berkarakter kuat: *"Mendokumentasikan Setiap Proses Rancang Bangun Web."*
+   - Menampilkan showcase kartu artwork resmi ARF Creative dengan aksen *halftone dot starburst*.
+
+3. **Dokumentasi Projek & Studi Kasus ([ProjectDocumentation.jsx](src/components/ProjectDocumentation.jsx))**:
+   - Inti utama website yang menyajikan studi kasus mendalam untuk projek nyata:
+     - **01. Aksara Dialogue** (*"Suara Publik, Ruang Dialog"*): Platform editorial opini publik independen. Dokumentasi latar belakang masalah, pendekatan tipografi ramah baca, arsitektur React, link repositori GitHub, dan live demo.
+     - **02. BDG Boys Merch** (*"Streetwear & Apparel Merchandise Web"*): Katalog produk apparel lokal Bandung dengan alur pemesanan langsung WhatsApp.
+     - **03. Projek Pertama Kreatif** (*"Dokumentasi & Proses Belajar Koding"*): Catatan arsip eksplorasi koding web dari nol (HTML5 semantik, CSS Grid, DOM JavaScript).
+     - **04. ARF Creative Space** (*"Static Site Architecture"*): Dokumentasi arsitektur website resmi siap Vercel.
+
+4. **Filosofi & Catatan Proses ([AboutStudio.jsx](src/components/AboutStudio.jsx))**:
+   - 3 Pilar utama studio: *Dokumentasi Menyeluruh, Karakter Visual yang Otentik, dan Arsitektur Statis Modern*.
+
+5. **Ruang Kolaborasi & Kontak ([CollabContact.jsx](src/components/CollabContact.jsx))**:
+   - Jalur komunikasi langsung ke WhatsApp, Instagram (`@arf_.creative`), GitHub, dan Email dilengkapi tombol salin 1-klik.
+
+6. **Footer ([Footer.jsx](src/components/Footer.jsx))**:
+   - Identitas studio resmi dan navigasi kembali ke atas.
 
 ---
 
 ## ⚙️ Cara Menjalankan Project Secara Lokal
 
-1. **Clone / Download Repository ini**:
-   ```bash
-   git clone https://github.com/USERNAME/distech-company-profile.git
-   cd distech-company-profile
-   ```
-
-2. **Install Dependensi**:
+1. **Install Dependensi**:
    ```bash
    npm install
    ```
 
-3. **Jalankan Development Server**:
+2. **Jalankan Server Development**:
    ```bash
    npm run dev
    ```
-   Buka URL lokal yang muncul (biasanya `http://localhost:5173`).
+   Buka URL lokal yang muncul (misalnya `http://localhost:5174`).
 
-4. **Build untuk Production**:
+3. **Build untuk Production**:
    ```bash
    npm run build
    ```
-   Hasil build static akan dibuat di dalam folder `dist/`.
 
 ---
 
-## 📂 Cara Mengubah Data & Konfigurasi (Customization)
+## 🌐 Deploy ke Vercel
 
-Semua data teks, kontak, portfolio, harga, dan FAQ dipisahkan di folder `src/data/` agar mudah diedit tanpa mengubah kode UI:
+```bash
+git add .
+git commit -m "feat: complete bespoke ARF Creative studio & documentation website"
+git push origin main
+```
 
-- 📝 **`src/data/siteConfig.js`**:
-  - Nomor WhatsApp, link Instagram, GitHub, Email
-  - Paket Harga (Starter, Business, Custom)
-  - Alasan & Workflow
-- 📁 **`src/data/portfolioData.js`**:
-  - Tambah / ubah project portfolio, badges teknologi, link GitHub, dan link Live Demo.
-- ❓ **`src/data/faqData.js`**:
-  - Tambah / ubah daftar pertanyaan FAQ.
-- 🛠️ **`src/data/servicesData.js`**:
-  - Ubah daftar layanan DisTech.
+Lalu hubungkan repositori ke [Vercel Dashboard](https://vercel.com/dashboard) untuk deployment instan.
 
 ---
 
-## 🌐 Instruksi Deployment ke Vercel
-
-Website ini 100% statis dan sangat optimal di-deploy ke Vercel:
-
-### Opsi 1: Deploy via Vercel CLI (Direkomendasikan)
-1. Install Vercel CLI (jika belum):
-   ```bash
-   npm i -g vercel
-   ```
-2. Jalankan perintah deploy di folder project:
-   ```bash
-   vercel
-   ```
-3. Tekan Enter untuk menyetujui opsi bawaan.
-
-### Opsi 2: Deploy via Dashboard Vercel (GitHub Integration)
-1. Push repository ini ke akun **GitHub** Anda:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit for DisTech Company Profile"
-   git remote add origin https://github.com/USERNAME/distech-company-profile.git
-   git push -u origin main
-   ```
-2. Buka [Vercel Dashboard](https://vercel.com/dashboard) dan klik **"Add New"** > **"Project"**.
-3. Hubungkan repository GitHub Anda.
-4. Vercel akan otomatis mendeteksi **Vite**:
-   - **Framework Preset**: Vite
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-5. Klik **Deploy**! Website DisTech akan langsung live dalam beberapa detik dengan HTTPS aktif.
-
----
-
-## 📄 Lisensi & Hak Cipta
-
-© 2026 **DisTech (Digital Solution Technology)**. All rights reserved.
+&copy; 2026 **ARF Creative (@arf_.creative)**. All rights reserved.

@@ -1,20 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
   <defs>
-    <linearGradient id="distech-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#22D3EE" />
-      <stop offset="50%" stop-color="#2563EB" />
-      <stop offset="100%" stop-color="#1E40AF" />
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="16" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0E235C" />
+      <stop offset="100%" stop-color="#061234" />
+    </radialGradient>
+    <pattern id="halftone-dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="2" fill="#38BDF8" opacity="0.15" />
+    </pattern>
   </defs>
-  <rect width="512" height="512" rx="128" fill="#050B14" />
-  <rect width="504" height="504" x="4" y="4" rx="124" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="8" />
-  <g transform="translate(64, 64)">
-    <path d="M 60,60 L 190,60 C 270,60 320,100 320,192 C 320,284 270,324 190,324 L 60,324 Z" fill="none" stroke="url(#distech-grad)" stroke-width="48" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" />
-    <path d="M 140,140 L 190,140 C 220,140 240,155 240,192 C 240,229 220,244 190,244 L 140,244 Z" fill="url(#distech-grad)" opacity="0.3" />
-    <circle cx="280" cy="110" r="16" fill="#22D3EE" />
-  </g>
+  
+  <!-- Outer Badge -->
+  <rect width="512" height="512" rx="140" fill="url(#bg-grad)" />
+  <rect width="512" height="512" rx="140" fill="url(#halftone-dots)" />
+  <rect width="504" height="504" x="4" y="4" rx="136" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="4" />
+  
+  <!-- Text ARF (matching the official rounded bold font) -->
+  <text x="256" y="280" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="150" font-weight="900" letter-spacing="2" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">
+    ARF
+  </text>
+  
+  <!-- Subtext creative -->
+  <text x="256" y="360" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="52" font-weight="600" letter-spacing="4" fill="#CBD5E1" text-anchor="middle" dominant-baseline="middle">
+    creative
+  </text>
 </svg>
