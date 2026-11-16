@@ -78,55 +78,22 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Mobile Right: WA + Menu Toggle */}
-          <div className="flex md:hidden items-center gap-2">
+          {/* Mobile Right: Quick WhatsApp Action */}
+          <div className="flex md:hidden items-center">
             <a
               href={siteConfig.contact.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3.5 py-1 rounded-full text-xs font-black text-white bg-[#10B981] min-h-[32px] flex items-center justify-center"
+              className="px-3.5 py-1.5 rounded-full text-xs font-black text-white bg-[#10B981] hover:bg-[#059669] min-h-[36px] flex items-center justify-center tracking-wider shadow-sm"
               title="Chat WhatsApp Resmi"
+              aria-label="Chat WhatsApp Resmi"
             >
               WA
             </a>
-
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="p-2 rounded-lg bg-white/5 border border-white/10 text-white min-h-[36px] min-w-[36px] flex items-center justify-center"
-              aria-label={menuOpen ? 'Tutup navigasi' : 'Buka navigasi'}
-              aria-expanded={menuOpen}
-            >
-              {menuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-            </button>
           </div>
 
         </div>
       </div>
-
-      {/* Mobile Drawer */}
-      {menuOpen && (
-        <div className="md:hidden bg-[#050B17]/98 border-b border-white/10 px-4 pt-3 pb-5 shadow-2xl">
-          <div className="flex flex-col space-y-2">
-            {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                onClick={() => {
-                  setActiveNav(item.label);
-                  setMenuOpen(false);
-                }}
-                className={`px-4 py-2.5 rounded-xl text-xs font-bold tracking-wider transition-colors ${
-                  activeNav === item.label
-                    ? 'bg-[#2532A0] text-white'
-                    : 'text-white/80 hover:bg-white/5 hover:text-white'
-                }`}
-              >
-                {item.label}
-              </a>
-            ))}
-          </div>
-        </div>
-      )}
     </header>
   );
 }
